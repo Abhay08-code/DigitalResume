@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Abhay Agrawal — Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Abhay Agrawal — B.Tech CSE student. MERN stack, React, Node.js, web developer. Resume / portfolio." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">Abhay <span class="surname">Agrawal</span></h1>
+        <p class="tagline">B.Tech CSE • Aspiring SDE • MERN & Web Developer</p>
+      </div>
+      <nav class="contact">
+        <a href="mailto:abhayagrawal0805@gmail.com" class="contact-item">✉️ abhayagrawal0805@gmail.com</a>
+        <a href="tel:+917581929792" class="contact-item">📞 +91 75819 29792</a>
+        <a href="https://www.linkedin.com/in/abhayagrawal08" target="_blank" rel="noopener" class="contact-item">in/abhayagrawal08</a>
+        <a href="https://github.com/Abhay08-code" target="_blank" rel="noopener" class="contact-item">github.com/Abhay08-code</a>
+        <!-- <a href="ABHAY AGRAWAL.pdf" class="download-btn" download>⬇️ Download CV</a> -->
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="profile-card">
+      <!-- <div class="photo-wrap">
+        <!-- Replace src with your photo path -->
+        <img src="assets/photo.jpg" alt="Abhay Agrawal Photo" class="photo" onerror="this.style.display='none'"/>
+      </div> -->
+
+      <section class="quick-info">
+        <h2>Summary</h2>
+        <p>
+          Passionate Computer Science Engineering student with strong foundations in programming, web development, and data structures.
+          Skilled in MERN stack (React.js, Node.js) and modern UI design. Quick learner and problem solver aiming to grow as an SDE.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>C++, Java</li>
+          <li>MERN stack (Mongo, Express, React, Node)</li>
+          <li>Tailwind, Bootstrap, CSS3, HTML5</li>
+          <li>Git, GitHub, Postman, VS Code</li>
+          <li>OOPs, Operating Systems, Problem Solving</li>
+          <li>Communication & Leadership</li>
+        </ul>
+      </section>
+
+      <section class="links">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/abhayagrawal08" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/Abhay08-code" target="_blank">GitHub</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <section class="content">
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="card">
+          <h3>E-Cell LNCT — Event Organiser (Collaborative)</h3>
+          <p>Organized innovation & startup events; developed leadership, communication and team coordination skills.</p>
+        </div>
+
+        <div class="card">
+          <h3>Smart India Hackathon 2025 — Participant</h3>
+          <p>Contributed to a tech-driven project solution during SIH 2025.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <article class="project">
+          <h3>LNCT Group Website (React)</h3>
+          <p>Built a responsive, modern website using React.js, Tailwind CSS, and Framer Motion. Implemented animations, category filtering and live search for institutions and businesses.</p>
+        </article>
+
+        <article class="project">
+          <h3>AYURSUTRA — Full-Stack Ayurvedic Wellness Platform</h3>
+          <p>MERN app with role-based dashboards (patients, practitioners, admins). Integrated AI-driven wellness plans, real-time video consults (Socket.IO & Jitsi), notifications, digital prescriptions and analytics tools for practitioners.</p>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="edu">
+          <h3>B.Tech — Computer Science Engineering</h3>
+          <p><strong>Lakshmi Narain College of Technology & Science, Bhopal</strong> (2023 — 2027)</p>
+          <p>Current CGPA: <strong>7.63 / 10</strong></p>
+        </div>
+
+        <div class="edu">
+          <h3>Class XII — MPBSE</h3>
+          <p><strong>Government Model Higher Secondary School, Sabalgarh</strong> — 2022</p>
+          <p>Percentage: <strong>89.80%</strong></p>
+        </div>
+
+        <div class="edu">
+          <h3>Class X — MPBSE</h3>
+          <p><strong>Takshashila High School, Sabalgarh</strong> — 2020</p>
+          <p>Percentage: <strong>95.75%</strong></p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">More</h2>
+        <div class="card">
+          <h3>Interests</h3>
+          <p>Full-stack development, AI integration, UI/UX, competitive programming, product development.</p>
+        </div>
+
+        <div class="card">
+          <h3>Languages</h3>
+          <p>English, Hindi</p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <!-- <div class="container footer-inner">
+      <p>Made with ❤️ by <strong>Abhay Agrawal</strong> — <a href="ABHAY AGRAWAL.pdf" download>Download Resume (PDF)</a></p>
+      <p class="small">Built with HTML &amp; CSS • Printable &amp; responsive</p>
+    </div> -->
+  </footer>
+
+  <!-- Optional: small script to handle missing photo -->
+  <script>
+    // If photo is not present hide photo container gracefully
+    document.addEventListener('DOMContentLoaded', function() {
+      const img = document.querySelector('.photo');
+      if (img && (img.complete && img.naturalWidth === 0)) {
+        img.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
